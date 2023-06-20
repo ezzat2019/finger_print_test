@@ -1,4 +1,5 @@
 import 'package:finger_print_test/login_sc.dart';
+import 'package:finger_print_test/signature_sc.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: LoginSc()
+      home: SignatureSc()
     );
   }
 }
